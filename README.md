@@ -33,3 +33,20 @@ spark_read_csv(sc,name="chernorechie_vozd_do_5_iyulya_2022", path="C:\\Users\\Il
 ```
 Error in as.symbol(x) : attempt to use zero-length variable name
 ```
+
+## Запрос данных
+```
+process.R
+SQL.R
+```
+
+## Моделирование
+В примере используем ```ml_linear_regression()``` - модель линейной регрессии.
+Предскажем расход топлива автомобиля (```mpg```) на основе его веса (```wt```) и количества цилиндров в двигателе (```cyl```)
+```
+model.R
+```
+На данных Черноречья предсказания неудовлетворительные
+```
+model_ch.R
+```
