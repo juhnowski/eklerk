@@ -26,3 +26,5 @@ res <- head(pred)
 library(dplyr)
 
 pred %>% as_tibble %>% print(n=40)
+# сохранить на диск
+write.table(pred, file = "my_data2.txt")
